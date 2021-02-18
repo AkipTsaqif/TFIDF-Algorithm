@@ -60,6 +60,7 @@ print(dfskor.sort_values(by = 'Score', ascending=False))
 
 print()
 print('\tAnd for (2) "gold truck", its similarity scores is:')
+
 goldQ2 = df2.at['D5', 'gold']
 goldD2 = df2.at['D1', 'gold']
 truckQ2 = df2.at['D5', 'truck']
